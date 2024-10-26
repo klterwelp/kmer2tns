@@ -4,7 +4,7 @@ Title: DeNovo Identification of Repetitive Regions Using K-mers
 Version: 0.1.0
 Author: person("Kat", "Terwelp", , "katerina.terwelp@cuanschutz.edu", role = c("aut", "cre"))
 Maintainer: Kat Terwelp <katerina.terwelp@cuanschutz.edu>
-Description: Package contains an in-built k-mer counter. Then uses k-mers to ID potential repetitive regions of a given genome.    
+Description: Package contains an in-built k-mer counter. Then uses k-mers to ID potential repetitive regions of a given genome.    This is a practice project for CU Anschutz Computational Biosciences program 2024. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
