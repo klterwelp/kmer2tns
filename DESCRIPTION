@@ -14,6 +14,8 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     Biostrings,
+    data.table,
+    fs,
     stringr
 URL: https://github.com/klterwelp/kmer2tns
 BugReports: https://github.com/klterwelp/kmer2tns/issues
