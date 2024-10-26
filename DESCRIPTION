@@ -13,6 +13,7 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
+    Biostrings,
     stringr
 URL: https://github.com/klterwelp/kmer2tns
 BugReports: https://github.com/klterwelp/kmer2tns/issues
