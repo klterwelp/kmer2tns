@@ -19,3 +19,5 @@ Imports:
     stringr
 URL: https://github.com/klterwelp/kmer2tns
 BugReports: https://github.com/klterwelp/kmer2tns/issues
+Depends: 
+    R (>= 2.10)
