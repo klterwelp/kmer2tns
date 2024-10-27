@@ -10,12 +10,12 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.1
 Suggests: 
+    fs,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
     Biostrings,
     data.table,
-    fs,
     stringr
 URL: https://github.com/klterwelp/kmer2tns
 BugReports: https://github.com/klterwelp/kmer2tns/issues

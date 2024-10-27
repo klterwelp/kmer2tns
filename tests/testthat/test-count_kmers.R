@@ -1,3 +1,10 @@
+# Check that fs is installed to run unit tests
+if (requireNamespace("fs", quietly = TRUE)) {
+  library(fs)
+} else {
+  stop("Package 'fs' is required for these tests.")
+}
+
 # Test for file not found
 test_that("count_kmers handles file not found error", {
   expect_error(count_kmers(seq_path = "non_existent_file.fasta", k = 7), "File not found")
