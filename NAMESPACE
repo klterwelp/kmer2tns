@@ -3,3 +3,5 @@
 export(count_kmers)
 export(log_message)
 export(str_split_one)
+export(validate_kmer_count_table)
+importFrom(magrittr,"%>%")
