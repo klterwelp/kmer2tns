@@ -17,6 +17,7 @@ Imports:
     Biostrings,
     data.table,
     magrittr,
+    stringdist,
     stringr
 URL: https://github.com/klterwelp/kmer2tns
 BugReports: https://github.com/klterwelp/kmer2tns/issues
