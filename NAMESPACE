@@ -2,6 +2,7 @@
 
 export(cluster_kmers)
 export(count_kmers)
+export(count_kmers_positions)
 export(identify_top_kmer)
 export(log_message)
 export(new_expand_core_kmers)
