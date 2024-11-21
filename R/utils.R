@@ -27,8 +27,8 @@ validate_kmer_count_table <- function(kmer_counts) {
   }
 
   # Check if it has exactly two columns named "kmer" and "count"
-  if (!all(c("kmer", "count") %in% colnames(kmer_counts))) {
-    stop("kmer_counts must have two columns: 'kmer' and 'count'.")
+  if (!all(c("kmer", "count", "positions") %in% colnames(kmer_counts))) {
+    stop("kmer_counts must have three columns: 'kmer', 'count', and 'positions'.")
   }
 
   # Check if "kmer" values are all characters
@@ -41,6 +41,10 @@ validate_kmer_count_table <- function(kmer_counts) {
     stop("The 'count' column must contain numeric values.")
   }
 
+  # Check if "positions" values are a list
+  if (!is.list(kmer_counts$positions)) {
+    stop("The 'count' column must contain numeric values.")
+  }
   # If all checks pass
   return(TRUE)
 }
