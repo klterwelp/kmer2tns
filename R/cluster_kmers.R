@@ -213,11 +213,12 @@ cluster_kmers <- function(core_cutoff, kmer_counts) {
                         cutoff_list = cutoff_list)
 
   log_message("Done expanding p-clouds.")
+  log_message("Converting p-cloud list to data.table")
+  expanded_p_clouds_tbl <- rbindlist(expanded_p_clouds_list, idcol = "p_cloud")
 
-  return(expanded_p_clouds_list)
+  return(expanded_p_clouds_tbl)
 
 }
-
 
 
 
