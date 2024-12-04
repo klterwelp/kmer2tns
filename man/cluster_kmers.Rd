@@ -12,7 +12,7 @@ cluster_kmers(core_cutoff, kmer_counts)
 \item{kmer_counts}{counts table from count_kmers()}
 }
 \value{
-list of kmer clusters (P-cloud object)
+table of kmer clusters (P-cloud object)
 }
 \description{
 Cluster kmers into similar repetitive sequences

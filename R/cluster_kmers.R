@@ -129,7 +129,7 @@ new_expand_core_kmers <- function(table, core_list, cutoff_list) {
 #' @param core_cutoff any integer value greater than 5
 #' @param kmer_counts counts table from count_kmers()
 #'
-#' @return list of kmer clusters (P-cloud object)
+#' @return table of kmer clusters (P-cloud object)
 #' @export
 #'
 #' @examples
